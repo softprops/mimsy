@@ -1,0 +1,3 @@
+package mimsy
+
+trait Connections

@@ -1,0 +1,12 @@
+multiget* values are empty ONLY after a keys value is update. why?
+
+its not cool unless its consitently hashed. make use of vbucket and provide a hash interace to multiple remove connections
+
+sys.error is probably not the nicest choice in the long term but it'll do for now. revisit this later
+
+so what does serversocket.configureBlocking(false) really buy us? revisit this
+
+heyo! how about some tests?
+
+sasl installation on osx is anything but simple, need to test and dev this in an env where sasl actually works. 2.1.23 seems busted
+
